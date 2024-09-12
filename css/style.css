@@ -1,0 +1,267 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Roboto;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: white;
+  background-color: #3A5F56;
+  border-radius: 6px;
+  padding: 10px 18px;
+}
+
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header_box {
+  display: flex;
+  align-items: center;
+}
+.header_menu {
+  display: flex;
+}
+.header_link {
+  color: #3A5F56;
+  font-size: 16px;
+}
+.header_link:hover {
+  color: #292C32;
+}
+.header_item {
+  margin-right: 30px;
+}
+.header_cart {
+  display: flex;
+  gap: 8px;
+}
+.header_cart::before {
+  content: "";
+  background: url(../img/cart.svg);
+  display: block;
+  height: 17px;
+  width: 17px;
+}
+.header_cart::after {
+  content: "0";
+  color: #3A5F56;
+  background-color: white;
+  padding: 0 6px;
+  border-radius: 50%;
+}
+
+.first-section {
+  background: url("../img/background.png") no-repeat center center/cover;
+  padding: 100px 0;
+}
+.first-section_wrap {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+.first-section_title {
+  color: #3A5F56;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.first-section_text {
+  color: #3A5F56;
+  font-size: 16px;
+  margin-bottom: 27px;
+}
+
+.services {
+  padding: 100px 0;
+}
+.services_title {
+  color: #3A5F56;
+  font-size: 32px;
+  margin-bottom: 11px;
+  text-align: center;
+}
+.services_text {
+  color: #292C32;
+  font-size: 16px;
+  max-width: 590px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+.services_row {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+.services_card {
+  max-width: 310px;
+  border-radius: 16px;
+  background-color: #F4F3F0;
+  padding: 30px;
+}
+.services_icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 9px;
+}
+.services_subtitle {
+  color: #3A5F56;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.services_read {
+  color: #3A5F56;
+  font-size: 17px;
+}
+
+.press {
+  background: url("../img/Frame.png") no-repeat center center/cover;
+  padding: 100px 0;
+}
+.press_wrapper {
+  margin-top: 50px;
+}
+.press_text-block {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.press_title {
+  margin-top: 20px;
+  color: #DB343B;
+}
+.press_text {
+  margin-top: 20px;
+}
+.press_box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.press_text-box {
+  background-color: #F4F3F0;
+  border-radius: 20px;
+}
+.press_text-title-h1 {
+  max-width: 300px;
+  height: 150px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #3A5F56;
+}
+.press_text-end-block {
+  text-align: center;
+}
+.press_text-end {
+  position: relative;
+  top: 40px;
+  color: #3A5F56;
+}
+
+.section-togewer {
+  background: url(../img/fon.png) no-repeat center center/cover;
+  padding: 100px 0;
+}
+.section-togewer__block {
+  text-align: center;
+  background-color: #F4F3F0;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+  border-radius: 20px;
+}
+.section-togewer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.section-togewer__text {
+  width: 300px;
+  text-align: left;
+  font-size: 28px;
+  margin-left: -35px;
+}
+.section-togewer__btn {
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #3A5F56;
+  border-radius: 6px;
+  padding: 15px 25px;
+}
+
+.footer {
+  background-color: #292C32;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer_pic-title {
+  position: relative;
+  top: 50px;
+}
+.footer_texts-block {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_text-block {
+  line-height: 30px;
+  text-align: left;
+  width: 200px;
+}
+.footer_texting-block {
+  line-height: px;
+  text-align: left;
+  width: 400px;
+}
+.footer_under-block {
+  position: relative;
+  top: -50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_email {
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+}
+.footer_btn {
+  position: relative;
+  top: -41.5px;
+  left: 340px;
+  color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  outline: none;
+  background-color: #292C32;
+  padding: 0.7em 0.5em;
+  border-radius: 10px;
+}
+.footer_text {
+  color: #fff;
+  padding: 8px;
+}
+.footer_title {
+  color: #B87D58;
+}
